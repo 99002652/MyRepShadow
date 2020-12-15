@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:padding="8dp"
+    android:layout_marginLeft="1dp"
+    app:cardBackgroundColor="#DCDACF"
+    app:cardCornerRadius="10dp">
+
+
+    <RelativeLayout
+        android:id="@+id/relay"
+        android:layout_width="393dp"
+        android:layout_height="100dp"
+        android:layout_margin="4dp"
+        android:background="#EAAAAA"
+        android:clickable="false"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="123dp">
+
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="249dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="1dp"
+
+            android:text="DOCTOR"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:text="Thusday @9PM"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="32dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="45dp"
+            android:text="" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
